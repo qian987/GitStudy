@@ -18,9 +18,12 @@ public class MainTask {//³É¼¨Í³¼Æ
 	   //4¡¢
 		SortClass sc=new SortClass();
 		sc.sort(arr);
+		ComValue cv=new ComValue();
+		cv.averageV(arr);
 	}
 	public static void Sort(ArrayList arr) {
 		
 	}
+
 
 }
